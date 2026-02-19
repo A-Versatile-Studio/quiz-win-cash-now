@@ -9,22 +9,22 @@
     --background: 50 100% 95%;
     --foreground: 0 0% 0%;
 
-    --card: 50 100% 80%;
+    --card: 48 50% 88%;
     --card-foreground: 0 0% 0%;
 
     --popover: 50 100% 95%;
     --popover-foreground: 0 0% 0%;
 
-    --primary: 340 82% 55%;
+    --primary: 340 60% 62%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 195 100% 50%;
+    --secondary: 200 55% 62%;
     --secondary-foreground: 0 0% 0%;
 
     --muted: 50 40% 88%;
     --muted-foreground: 0 0% 30%;
 
-    --accent: 50 100% 55%;
+    --accent: 48 70% 72%;
     --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,7 +32,7 @@
 
     --border: 0 0% 0%;
     --input: 0 0% 0%;
-    --ring: 340 82% 55%;
+    --ring: 340 60% 62%;
 
     --radius: 0px;
 
@@ -49,13 +49,13 @@
     --sidebar-border: 0 0% 0%;
     --sidebar-ring: 340 82% 55%;
 
-    /* Neo brutalism extra tokens */
-    --neo-pink: 340 82% 55%;
-    --neo-yellow: 50 100% 55%;
-    --neo-blue: 195 100% 50%;
-    --neo-green: 145 70% 50%;
-    --neo-orange: 25 95% 55%;
-    --neo-purple: 270 70% 60%;
+    /* Neo brutalism extra tokens — muted palette */
+    --neo-pink: 340 60% 65%;
+    --neo-yellow: 48 70% 72%;
+    --neo-blue: 200 55% 65%;
+    --neo-green: 155 40% 60%;
+    --neo-orange: 28 55% 68%;
+    --neo-purple: 270 40% 68%;
   }
 
   .dark {
