@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-neo-yellow py-12 md:py-20">
       {/* Decorative elements */}
-      <div className="absolute top-10 left-10 w-20 h-20 bg-neo-pink neo-border rotate-12 hidden md:block" />
+      <div className="absolute top-10 left-10 w-20 h-20 bg-neo-pink neo-border rotate-12 hidden md:block opacity-0" />
       <div className="absolute bottom-20 right-20 w-16 h-16 bg-neo-blue neo-border -rotate-6 hidden md:block" />
-      <div className="absolute top-1/2 left-5 w-8 h-8 bg-foreground rotate-45 hidden lg:block" />
+      <div className="absolute top-1/2 left-5 w-8 h-8 bg-foreground rotate-45 hidden lg:block opacity-0" />
 
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
@@ -37,24 +37,24 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="#"
-                className="neo-btn bg-foreground text-background text-center text-lg"
-              >
+                className="neo-btn bg-foreground text-background text-center text-lg">
+
                 <Smartphone className="inline-block mr-2 w-5 h-5" />
                 Download for Android
               </a>
               <a
                 href="#how-to-use"
-                className="neo-btn bg-background text-foreground text-center text-lg"
-              >
+                className="neo-btn bg-background text-foreground text-center text-lg">
+
                 How It Works →
               </a>
             </div>
 
             <div className="flex items-center gap-6 mt-8 justify-center lg:justify-start">
               <div className="flex items-center gap-1">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-5 h-5 fill-foreground text-foreground" />
-                ))}
+                {[1, 2, 3, 4, 5].map((i) =>
+                <Star key={i} className="w-5 h-5 fill-foreground text-foreground" />
+                )}
               </div>
               <span className="font-bold text-foreground">4.8/5 · 10K+ Downloads</span>
             </div>
@@ -67,8 +67,8 @@ const Hero = () => {
                 <img
                   src={heroPhone}
                   alt="QuizWin App Screenshot"
-                  className="w-72 md:w-80 neo-border"
-                />
+                  className="w-72 md:w-80 neo-border" />
+
               </div>
               {/* Floating badges */}
               <div className="absolute -top-4 -right-4 bg-neo-green neo-border neo-shadow px-3 py-2 rotate-6 animate-bounce-subtle">
@@ -91,8 +91,8 @@ const Hero = () => {
           </span>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
