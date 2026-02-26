@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="#"
-                className="neo-btn bg-foreground text-background text-center text-lg">
+                className="neo-btn bg-white text-black text-center text-lg">
                 <Smartphone className="inline-block mr-2 w-5 h-5" />
                 Download for Android
               </a>
